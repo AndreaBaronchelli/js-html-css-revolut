@@ -28,6 +28,11 @@ a {
 
 .btn.black {
     background-color: #000;
+    transition: background-color 0.2s;
+}
+
+.btn.black:hover {
+    background-color: rgba(25, 28, 31, 0.84);
 }
 
 .btn.black a {
@@ -36,6 +41,12 @@ a {
 
 .btn.grey {
     background-color: #f0f0f0;
+    transition: background-color 0.2s;
+}
+
+.btn.grey:hover {
+    background-color: rgba(230, 230, 230, 0.8);
+    cursor: pointer;
 }
 
 .btn.grey a {
@@ -73,6 +84,10 @@ a {
 
 .main-header li:hover > a {
     color: #000;
+}
+
+.main-header li.btn.black:hover > a {
+    color: #fff;
 }
 
 .main-header .header-left a.active {
