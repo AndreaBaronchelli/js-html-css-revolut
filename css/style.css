@@ -56,6 +56,9 @@ a {
 /* HEADER */
 .main-header {
     height: 128px;
+    position:fixed;
+    width: 100%;
+    background-color: #fff;
 }
 
 .main-header .container {
@@ -112,17 +115,20 @@ a {
 }
 
 .main-header .dropdown.big {
-    display: flex;
     left: -250px;
+}
+
+.main-header .dropdown .content {
+    display: flex;
     flex-direction: row;
 }
 
-.main-header .dropdown.big ul{
+.main-header .dropdown .content ul{
     width: 180px;
     margin-left: 30px;
 
 }
-.main-header .dropdown.big ul:first-child {
+.main-header .dropdown .content ul:first-child {
     margin-left: 0;
 }
 
@@ -173,6 +179,7 @@ a {
 
 /* MAIN */
 main {
+    padding-top: 128px;
     height: 500px;
     background-color: #888;
 }
